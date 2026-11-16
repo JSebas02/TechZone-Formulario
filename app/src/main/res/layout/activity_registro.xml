@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#101827">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registro TechZone"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#60A5FA"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Completa tus datos para registrarte"
+            android:textSize="16sp"
+            android:textColor="#CBD5E1"
+            android:layout_marginBottom="24dp" />
+
+        <EditText
+            android:id="@+id/edtNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre completo"
+            android:inputType="textPersonName"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#94A3B8" />
+
+        <EditText
+            android:id="@+id/edtCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Correo electrónico"
+            android:inputType="textEmailAddress"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#94A3B8"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¿Qué categoría te interesa más?"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="28dp" />
+
+        <RadioGroup
+            android:id="@+id/grupoCategoria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radioHardware"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hardware"
+                android:textColor="#FFFFFF"
+                android:buttonTint="#60A5FA" />
+
+            <RadioButton
+                android:id="@+id/radioSoftware"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Software"
+                android:textColor="#FFFFFF"
+                android:buttonTint="#60A5FA" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Selecciona tus intereses"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="24dp" />
+
+        <CheckBox
+            android:id="@+id/checkGaming"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gaming"
+            android:textColor="#FFFFFF"
+            android:buttonTint="#60A5FA" />
+
+        <CheckBox
+            android:id="@+id/checkIA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Inteligencia artificial"
+            android:textColor="#FFFFFF"
+            android:buttonTint="#60A5FA" />
+
+        <CheckBox
+            android:id="@+id/checkProgramacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Programación"
+            android:textColor="#FFFFFF"
+            android:buttonTint="#60A5FA" />
+
+        <Button
+            android:id="@+id/btnRegistrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrarse"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#2563EB"
+            android:layout_marginTop="30dp" />
+
+    </LinearLayout>
+</ScrollView>
