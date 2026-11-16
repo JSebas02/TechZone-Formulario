@@ -87,3 +87,19 @@ La aplicación fue ejecutada en un emulador Android para comprobar:
 ## Finalidad académica
 
 Proyecto individual desarrollado para aplicar los conocimientos adquiridos sobre programación de aplicaciones móviles Android, componentes de interfaz, manejo de eventos y navegación entre Activities.
+
+
+## Capturas de pantalla
+
+### 1. Pantalla de presentación
+
+![Presentación de TechZone](presentacion.png)
+
+### 2. Formulario de inscripción
+
+![Formulario de TechZone](formulario.png)
+
+### 3. Confirmación de registro
+
+![Confirmación de TechZone](confirmacion.png)
+
